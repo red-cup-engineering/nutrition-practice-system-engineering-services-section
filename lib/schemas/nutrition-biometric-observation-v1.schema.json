@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"urn:red-cup-science:nutrition:biometric-observation:1.0.0",
+  "title":"Nutrition biometric observation v1",
+  "description":"Nutrition-domain profile of the general health-science biometric observation record (urn:red-cup-science:health:biometric-observation:1.0.0): same fields, missingness, consent, and media-retention rules, narrowed to recordType \"nutrition-biometric-observation\".",
+  "type":"object",
+  "allOf":[
+    {"$ref":"urn:red-cup-science:health:biometric-observation:1.0.0"},
+    {"type":"object","required":["recordType"],"properties":{"recordType":{"const":"nutrition-biometric-observation"}}}
+  ]
+}

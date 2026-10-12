@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"urn:red-cup-science:nutrition:intake-candidate:1.0.0",
+  "title":"Nutrition intake candidate v1","type":"object","additionalProperties":false,
+  "required":["recordType","schemaVersion","candidateId","origin","foodCandidates","mediaRetention"],
+  "properties":{
+    "recordType":{"const":"nutrition-intake-candidate"},"schemaVersion":{"const":"1.0.0"},"candidateId":{"$ref":"#/$defs/id"},
+    "origin":{"type":"object","additionalProperties":false,"required":["kind"],"properties":{"kind":{"enum":["manual","text","barcode","receipt","image","voice","import"]}}},
+    "foodCandidates":{"type":"array","minItems":1,"items":{"type":"object","additionalProperties":false,"required":["label"],"properties":{"label":{"type":"string","minLength":1}}}},
+    "mediaRetention":{"$ref":"#/$defs/mediaRetention"}
+  },
+  "$defs":{"id":{"type":"string","pattern":"^[a-z][a-z0-9-]{0,63}$"},"mediaRetention":{"type":"object","additionalProperties":false,"required":["containsRawPhoto","containsReceiptImage","containsRawAudio","containsAppearanceEmbedding","containsRawWearablePayload"],"properties":{"containsRawPhoto":{"const":false},"containsReceiptImage":{"const":false},"containsRawAudio":{"const":false},"containsAppearanceEmbedding":{"const":false},"containsRawWearablePayload":{"const":false}}}}
+}
