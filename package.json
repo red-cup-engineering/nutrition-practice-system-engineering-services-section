@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/nutrition-practice-system-services-section",
+  "name": "@red-cup-engineering/nutrition-practice-system-engineering-services-section",
   "version": "0.1.0",
   "type": "module",
   "description": "Engineering-owned nutrition practice system for portable ledgers, composition provenance, explicit uncertainty, and later consented exchange.",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/nutrition-practice-system-services-section.git"
+    "url": "git+https://github.com/red-cup-engineering/nutrition-practice-system-engineering-services-section.git"
   },
   "license": "MIT",
   "funding": {
