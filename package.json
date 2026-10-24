@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/nutrition-practice-system-engineering-services-section",
+  "name": "@red-cup-engineering/nutrition-practice-system-services-section",
   "version": "0.1.0",
   "type": "module",
   "description": "Engineering-owned nutrition practice system for portable ledgers, composition provenance, explicit uncertainty, and later consented exchange.",
@@ -7,8 +7,8 @@
     "./nutrition-practice-computer": "./scripts/nutrition-practice-computer.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/json-schema-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/json-engineering-services-section": "workspace:*"
+    "@red-cup-engineering/json-schema-services-section": "workspace:*",
+    "@red-cup-engineering/json-services-section": "workspace:*"
   },
   "scripts": {
     "test": "node --test test/**/*.test.mjs"
