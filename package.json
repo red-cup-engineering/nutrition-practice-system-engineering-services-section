@@ -7,8 +7,8 @@
     "./nutrition-practice-computer": "./scripts/nutrition-practice-computer.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/json-schema-services-section": "workspace:*",
-    "@red-cup-engineering/json-services-section": "workspace:*"
+    "@red-cup-engineering/json-schema-services-section": "^0.5.4",
+    "@red-cup-engineering/json-services-section": "^0.4.1"
   },
   "scripts": {
     "test": "node --test test/**/*.test.mjs"
