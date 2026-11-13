@@ -16,7 +16,7 @@ architecture](../../../../../../../../../../../science-services-section/services
 before admitting application behavior.
 
 Durable practitioner records live in the [personal nutrition state
-section](../../../../../../../../../../../public-services-section/services/personal-services-section/services/emsenn-services-section/services/emsenn-medical-services-section/services/health-services-section/services/emsenn-nutrition-services-section/),
+section](../../../../../../../../../../../public-services-section/services/personal-services-section/services/emsenn-services-section/services/emsenn-medical-services-section/services/health-services-section/services/public-emsenn-nutrition-services-section/),
 not in this computer system.
 
 ## Admitted application
@@ -39,7 +39,7 @@ architecture](../../../../../../../../../../../science-services-section/services
 before admitting application behavior.
 
 Durable practitioner records live in the [personal nutrition state
-section](../../../../../../../../../../../public-services-section/services/personal-services-section/services/emsenn-services-section/services/emsenn-medical-services-section/services/health-services-section/services/emsenn-nutrition-services-section/),
+section](../../../../../../../../../../../public-services-section/services/personal-services-section/services/emsenn-services-section/services/emsenn-medical-services-section/services/health-services-section/services/public-emsenn-nutrition-services-section/),
 not in this computer system.
 
 ## Admitted application
