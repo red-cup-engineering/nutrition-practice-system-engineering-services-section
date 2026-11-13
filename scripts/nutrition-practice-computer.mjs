@@ -5,7 +5,7 @@
  * Its only job is to make admissibility and cross-record meaning inspectable.
  */
 
-import { isObjectRecord } from "@red-cup-engineering/json-services-section";
+import { isObjectRecord } from "@red-cup-engineering/json-engineering-services-section";
 
 export const RECORD_TYPES = Object.freeze({
   intakeCandidate: "nutrition-intake-candidate",

@@ -1,9 +1,9 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { admitSchema } from "@red-cup-engineering/json-schema-services-section/admit-schema";
-import { inspectSchemaCorpus } from "@red-cup-engineering/json-schema-services-section/inspect-schema-corpus";
-import { validateSchemaInstance } from "@red-cup-engineering/json-schema-services-section/validate-schema-instance";
+import { admitSchema } from "@red-cup-engineering/json-schema-engineering-services-section/admit-schema";
+import { inspectSchemaCorpus } from "@red-cup-engineering/json-schema-engineering-services-section/inspect-schema-corpus";
+import { validateSchemaInstance } from "@red-cup-engineering/json-schema-engineering-services-section/validate-schema-instance";
 
 const root = new URL("../", import.meta.url);
 const readJson = async (path) => JSON.parse(await readFile(new URL(path, root), "utf8"));
